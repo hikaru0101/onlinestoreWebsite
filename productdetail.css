@@ -1,0 +1,21 @@
+.itemname{
+    display: inline;
+}
+.itemname div,p{
+    display: block;
+    
+}
+h3{
+    text-align: center;
+}
+.addcart{
+    display: flex;
+    justify-content: right;
+    color: white;
+    background-color: #c07754;
+    font-size: 20px;
+    margin:auto;
+    border: none;
+    font-family:'Roboto Slab', serif;
+    cursor: pointer;
+}
