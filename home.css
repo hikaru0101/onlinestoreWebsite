@@ -1,10 +1,21 @@
 #mainandfooterbackground{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.pixabay.com/photo/2018/01/04/11/40/cake-3060458_960_720.jpg); */
     background-image:url(https://cdn.pixabay.com/photo/2018/01/04/11/40/cake-3060458_960_720.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    
-    }
+}
+
+
+    /* #mainandfooterbackground::after {
+        content: "";
+        position: absolute;
+        top: 0;  bottom: 0;
+        left: 0;  right: 0;
+        background: black;
+        opacity:0.4;
+        
+      } */
     
 ul{
     display:flex;
@@ -29,15 +40,40 @@ header{
     flex-direction: row;
    align-items: center;
    justify-content: space-around;
-    padding:2%;
-    background-color: #c07754;
+    /* padding:2%; */
+    background: -moz-linear-gradient(top, #c07754, rgb(155, 101, 9));
+    background: -webkit-linear-gradient(top, #c07754, #FFF);
+    background: linear-gradient(to bottom, #c07754, rgb(143, 95, 12));
     color:#004445
 }
+.diviation{
+    padding:10px 10px;
+}
+hr{
+    width: 70%;
+    height: 3px;
+    background-color: #c07754;
+   
+}
+h1{
+    color: #c07754;
+    font-size: 50px;
+    margin-left: auto;
+    margin-left: 20px;
+}
+
 footer{
     
     color:#004445;
     text-align: center;
     padding-top: 30px;
+}
+
+footer i{
+    color:  #004445;
+}
+footer p {
+    color: white ;
 }
 
 .navmenu{
@@ -101,7 +137,7 @@ i:hover{
     text-decoration: none;
     text-align: center;
 }
-.productspace button{
+/* .productspace button{
     color: white;
     background-color: #c07754;
     font-size: 20px;
@@ -115,7 +151,7 @@ i:hover{
     color: #c07754;
     background-color: aliceblue;
     border:solid #c07754;
-}
+} */
 
 .menutable{
     display:flex;
@@ -133,7 +169,18 @@ i:hover{
         display: block;
         width: 100%;
         text-align: center;}
+
+
+    .productspace{
+        width:50%;
+        
+    }   
+    .main{
+        display: flex;
+        justify-content: center;
+    } 
     }
+ 
    
     
     /* border: 20px solid black; */
@@ -145,4 +192,28 @@ i:hover{
     text-align: center;
     display: flex;
     justify-content: center;  */
+}
+.button-link{
+    color: white !important;
+    background-color: #c07754;
+    font-size: 18px;
+    margin:auto;
+    padding:auto;
+    width:auto;
+    border:solid #c07754;
+    font-family:'Roboto Slab', serif ; 
+    cursor: pointer;
+    border-style: outset;
+
+    /* padding: 8px 16px;
+    background-color: #c07754;
+    color: white !important; */
+}
+.button-link:hover{
+    color: #c07754 !important;
+    background-color: aliceblue;
+    font-family:'Roboto Slab', serif;
+    border:solid #c07754;
+    border-style: inset;
+    /* background-color: #c07654b8; */
 }
